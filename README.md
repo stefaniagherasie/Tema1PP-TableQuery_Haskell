@@ -24,7 +24,7 @@ selectarea anumitor coloane dintr-un tabel sau selectarea unui număr limitat de
 filtrarea de Entry-uri, combinarea Entry-uri din mai multe tabele, cosine-similarity, care va fi
 discutat în detaliu mai jos.
 - Atom Table - reprezintă exact tabelul primit ca parametru.
-- Select [Field] Query. Constructorul primește o lista de coloane și un query q.
+- Select [Field] Query - constructorul primește o lista de coloane și un query q.
 Evaluarea acestuia selectează doar coloanele specificate în tabelul la care se evaluează q.
 - SelectLimit [Field] Integer Query - la fel ca Select, însă selectează un
 număr specificat de Entry-uri. 
