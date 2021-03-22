@@ -30,11 +30,11 @@ Evaluarea acestuia selectează doar coloanele specificate în tabelul la care se
 număr specificat de Entry-uri. 
 - Filter FilterCondition Query - reprezinta filtrarea Entry-urilor pe baza unei
 valori de tip FilterCondition. Condițiile de filtrare sunt reprezentate de următorul tip:
-  
-  data FilterCondition = Lt Field Integer |
-                            Eq Field String |
-                            In Field [String] |
-                            Not FilterCondition                   
+
+       data FilterCondition = Lt Field Integer |
+                              Eq Field String |
+                              In Field [String] |
+                              Not FilterCondition                   
 - Query :|| Query - reprezintă reuniunea Entry-urilor din evaluarea a două query-uri
 diferite
 
