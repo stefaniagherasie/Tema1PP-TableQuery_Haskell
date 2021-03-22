@@ -9,9 +9,15 @@ RULARE:
 - make run_shell  [set]  [subset] - pentru a testa manual,  alegem setul de test (specificat în Main.hs) și subtestul dorit pentru a vedea output-ul
 
 
+
+
+
 Citirea unui tabel se face dintr-un String. Pentru a citi un tabel, s-a implementat funcția
 read_table având următoarea semnătură:
 - read_table :: ColSeparator -> LnSeparator -> String -> Table
+
+
+
 
 Query-urile se evaluează la tabele existente, dar și la altele noi, care sunt construite prin:
 selectarea anumitor coloane dintr-un tabel sau selectarea unui număr limitat de Entry-uri;
