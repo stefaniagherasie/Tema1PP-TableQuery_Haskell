@@ -14,7 +14,6 @@ Citirea unui tabel se face dintr-un String. Pentru a citi un tabel, s-a implemen
 read_table având următoarea semnătură:
 - read_table :: ColSeparator -> LnSeparator -> String -> Table <br>
 
-
 Query-urile se evaluează la tabele existente, dar și la altele noi, care sunt construite prin:
 selectarea anumitor coloane dintr-un tabel sau selectarea unui număr limitat de Entry-uri;
 filtrarea de Entry-uri, combinarea Entry-uri din mai multe tabele, cosine-similarity, care va fi
