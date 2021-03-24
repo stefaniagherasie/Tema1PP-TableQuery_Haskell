@@ -6,7 +6,8 @@ citirea și interogarea de tabele.
 
 #### RULARE
        ► make run_tests - pentru a rula toate testele
-       ► make run_shell  [set]  [subset] - pentru a testa manual,  alegem setul de test (specificat în Main.hs) și subtestul dorit pentru a vedea output-ul
+       ► make run_shell  [set]  [subset] - pentru a testa manual,  alegem setul de test (specificat în Main.hs)
+                                           și subtestul dorit pentru a vedea output-ul
 
 Citirea unui tabel se face dintr-un String. Pentru a citi un tabel, s-a implementat funcția
 read_table având următoarea semnătură:
