@@ -4,19 +4,13 @@
 Obiectivul temei este implementarea în Haskell a unei biblioteci simple pentru reprezentarea,
 citirea și interogarea de tabele.
 
-RULARE:
-- make run_tests - pentru a rula toate testele
-- make run_shell  [set]  [subset] - pentru a testa manual,  alegem setul de test (specificat în Main.hs) și subtestul dorit pentru a vedea output-ul
-
-
-
-
+#### RULARE
+       ► make run_tests - pentru a rula toate testele
+       ► make run_shell  [set]  [subset] - pentru a testa manual,  alegem setul de test (specificat în Main.hs) și subtestul dorit pentru a vedea output-ul
 
 Citirea unui tabel se face dintr-un String. Pentru a citi un tabel, s-a implementat funcția
 read_table având următoarea semnătură:
-- read_table :: ColSeparator -> LnSeparator -> String -> Table
-
-
+- read_table :: ColSeparator -> LnSeparator -> String -> Table <br>
 
 
 Query-urile se evaluează la tabele existente, dar și la altele noi, care sunt construite prin:
