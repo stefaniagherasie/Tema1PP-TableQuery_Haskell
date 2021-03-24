@@ -9,6 +9,7 @@ citirea și interogarea de tabele.
        ► make run_shell  [set]  [subset] - pentru a testa manual,  alegem setul de test (specificat în Main.hs)
                                            și subtestul dorit pentru a vedea output-ul
 
+#### IMPLEMENTARE
 Citirea unui tabel se face dintr-un String. Pentru a citi un tabel, s-a implementat funcția
 read_table având următoarea semnătură:
 - read_table :: ColSeparator -> LnSeparator -> String -> Table <br>
