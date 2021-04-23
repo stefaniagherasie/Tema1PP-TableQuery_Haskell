@@ -4,17 +4,17 @@
 Obiectivul temei este implementarea în Haskell a unei biblioteci simple pentru reprezentarea,
 citirea și interogarea de tabele.
 
-#### RULARE
-> Pentru a rula toate testele:
-> ```shell
-> make run_tests 
-> ```
-> Pentru a testa manual,  alegem setul de test (specificat în Main.hs) și subtestul dorit pentru a vedea output-ul
-> ```shell
-> make run_shell  [set]  [subset] 
-> ```
+## Rulare si Testare
+Pentru a rula toate testele:
+```shell
+make run_tests 
+```
+Pentru a testa manual,  alegem setul de test (specificat în Main.hs) și subtestul dorit pentru a vedea output-ul
+```shell
+make run_shell  [set]  [subset] 
+```
 
-#### IMPLEMENTARE
+## Implementare
 Query-urile se evaluează la tabele existente, dar și la altele noi, care sunt construite prin:
 selectarea anumitor coloane dintr-un tabel sau selectarea unui număr limitat de Entry-uri;
 filtrarea de Entry-uri, combinarea Entry-uri din mai multe tabele, etc.
